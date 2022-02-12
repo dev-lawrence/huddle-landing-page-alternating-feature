@@ -376,7 +376,7 @@ h2 {
 }
 
 .header__logo {
-  display: none;
+  margin-top: 0.5rem;
 }
 
 .header__content {
