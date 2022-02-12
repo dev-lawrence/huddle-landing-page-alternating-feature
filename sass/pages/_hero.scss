@@ -1,0 +1,27 @@
+.hero {
+  text-align: center;
+  padding-top: 5.938rem;
+
+  @include medium {
+    text-align: left;
+    padding-top: 8.938rem;
+  }
+
+  &__content--text {
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__img {
+    padding-bottom: 3.5rem;
+
+    @include medium {
+      padding-bottom: 0;
+    }
+  }
+
+  &__btn {
+    margin-bottom: 3.5rem;
+  }
+}

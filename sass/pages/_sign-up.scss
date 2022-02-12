@@ -1,0 +1,30 @@
+.sign-up {
+  margin-top: 14.438rem;
+  position: relative;
+
+  &__container {
+    position: absolute;
+    top: -6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: $white;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 2px 3px 10px 0 rgba($color: #000, $alpha: 0.2);
+  }
+
+  &__content {
+    padding: 3.063rem 1.1rem;
+
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__btn {
+    box-shadow: 2px 3px 10px 0 rgba($color: #000, $alpha: 0.2);
+  }
+}
